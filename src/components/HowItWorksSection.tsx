@@ -41,7 +41,7 @@ const HowItWorksSection = () => {
             From Chat to Action in{" "}
             <span className="bg-gradient-to-b from-slate-50 to-purple-200 bg-clip-text text-transparent">Seconds</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg text-background max-w-3xl mx-auto">
             See how Afterloop seamlessly transforms your team conversations into 
             organized, trackable action items without disrupting your workflow.
           </p>
