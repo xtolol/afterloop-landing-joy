@@ -73,7 +73,7 @@ const WaitlistSection = () => {
               </Button>
             </form>
             
-            <div className="mt-6 flex items-center justify-center gap-6 text-sm text-muted-foreground">
+            <div className="mt-6 flex items-center justify-center gap-6 text-sm">
               <div className="flex items-center gap-2">
                 <Users className="h-4 w-4" />
                 <span>500+ on waitlist</span>
