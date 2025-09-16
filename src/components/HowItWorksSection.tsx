@@ -39,7 +39,7 @@ const HowItWorksSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
             From Chat to Action in{" "}
-            <span className="text-gradient">Seconds</span>
+            <span className="text-background">Seconds</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             See how Afterloop seamlessly transforms your team conversations into 
