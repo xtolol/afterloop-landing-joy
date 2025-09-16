@@ -2,39 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Afterloop Design System - Modern gradient-based design */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* Afterloop Brand Colors from palette */
+    --background: 323 100% 98%; /* #fff7fc */
     --foreground: 222.2 84% 4.9%;
 
-    --card: 0 0% 100%;
+    --card: 323 100% 98%;
     --card-foreground: 222.2 84% 4.9%;
 
-    --popover: 0 0% 100%;
+    --popover: 323 100% 98%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Main blue from palette */
+    --primary: 242 100% 67%; /* #5755fe */
+    --primary-foreground: 323 100% 98%;
 
-    --secondary: 210 40% 96.1%;
+    /* Secondary - Light purple from palette */
+    --secondary: 249 100% 76%; /* #8b93ff */
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 210 40% 96.1%;
+    /* Accent - Pink from palette */
+    --accent: 332 100% 73%; /* #ff71cd */
+    --accent-foreground: 323 100% 98%;
+
+    --muted: 249 30% 95%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 323 100% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 249 30% 90%;
+    --input: 249 30% 95%;
+    --ring: 242 100% 67%;
+
+    /* Custom Afterloop gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(249 100% 76%), hsl(242 100% 67%));
+    --gradient-hero: linear-gradient(135deg, hsl(323 100% 98%), hsl(249 100% 76%), hsl(242 100% 67%), hsl(332 100% 73%));
+    --gradient-accent: linear-gradient(90deg, hsl(242 100% 67%), hsl(332 100% 73%));
 
     --radius: 0.5rem;
 
@@ -57,40 +64,37 @@ All colors MUST be HSL.
 
   .dark {
     --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --foreground: 323 100% 98%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 217.2 32.6% 17.5%;
+    --card-foreground: 323 100% 98%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 217.2 32.6% 17.5%;
+    --popover-foreground: 323 100% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 242 100% 67%;
+    --primary-foreground: 323 100% 98%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 249 100% 76%;
+    --secondary-foreground: 323 100% 98%;
+
+    --accent: 332 100% 73%;
+    --accent-foreground: 222.2 84% 4.9%;
 
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 323 100% 98%;
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --ring: 242 100% 67%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(249 100% 76%), hsl(242 100% 67%));
+    --gradient-hero: linear-gradient(135deg, hsl(222.2 84% 4.9%), hsl(249 100% 76%), hsl(242 100% 67%), hsl(332 100% 73%));
+    --gradient-accent: linear-gradient(90deg, hsl(242 100% 67%), hsl(332 100% 73%));
   }
 }
 
@@ -101,5 +105,26 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  
+  .text-gradient {
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 }
