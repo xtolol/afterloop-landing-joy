@@ -41,7 +41,7 @@
     /* Custom Afterloop gradients */
     --gradient-primary: linear-gradient(135deg, hsl(249 100% 76%), hsl(242 100% 67%));
     --gradient-hero: linear-gradient(135deg, hsl(323 100% 98%), hsl(249 100% 76%), hsl(242 100% 67%), hsl(332 100% 73%));
-    --gradient-accent: linear-gradient(90deg, hsl(242 100% 67%), hsl(332 100% 73%));
+    --gradient-accent: linear-gradient(to right top, #fff7fc, #f6d8f4, #e2bdf4, #c0a5f8, #8b93ff);
 
     --radius: 0.5rem;
 
