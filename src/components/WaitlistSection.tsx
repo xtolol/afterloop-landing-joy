@@ -64,7 +64,7 @@ const WaitlistSection = () => {
           </h2>
 
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Join hundreds of forward-thinking teams waiting to revolutionize
+            Join forward-thinking teams waiting to revolutionize
             their communication workflow. Get early access and help shape the
             future of AI-powered team coordination.
           </p>
@@ -98,7 +98,7 @@ const WaitlistSection = () => {
             <div className="mt-6 flex items-center justify-center gap-6 text-sm text-background">
               <div className="flex items-center gap-2">
                 <Users className="h-4 w-4" />
-                <span>500+ on waitlist</span>
+                <span>Limited spots left!</span>
               </div>
               <div className="flex items-center gap-2">
                 ⚡ Early access perks

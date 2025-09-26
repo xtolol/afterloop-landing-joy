@@ -16,7 +16,7 @@ const steps = [
     step: "02",
     title: "AI Detection",
     description:
-      "Advanced AI analyzes context and identifies potential tasks, decisions, or blockers with high confidence",
+      "Advanced AI analyzes context and identifies potential tasks and blockers with high confidence",
     example: "AI detects: Task, Assignee: You, Deadline: Wednesday",
   },
   {

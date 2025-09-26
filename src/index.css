@@ -8,7 +8,7 @@
   :root {
     /* Afterloop Brand Colors from palette */
     --background: 323 100% 98%; /* #fff7fc */
-    --foreground: /*#303030*/ 291, 35%, 15%;
+    --foreground: /*#303030*/ 287, 35%,6%;
 
     --card: 323 100% 98%;
     --card-foreground: 222.2 84% 4.9%;

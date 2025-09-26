@@ -23,7 +23,7 @@ const features = [
   {
     icon: Users,
     title: "Team Alignment Dashboard",
-    description: "Keep everyone synchronized with a central view of all tasks, decisions, and blockers across teams.",
+    description: "Keep everyone synchronized with a central view of all tasks and blockers across teams.",
     highlight: "4/5 alignment score"
   },
   {
