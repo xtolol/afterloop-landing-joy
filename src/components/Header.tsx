@@ -7,23 +7,32 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-2">
-            <img src={afterloopLogo} alt="Afterloop" className="h-8 w-8" />
-            <span className="text-xl font-bold text-gradient">Afterloop</span>
+          <div className="flex items-center justify-center">
+            <img
+              src={afterloopLogo}
+              alt="Afterloop"
+              className="w-24 h-auto object-contain "
+            />
           </div>
-          
+
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#features" className="text-sm font-medium hover:text-primary transition-colors">
+            <a
+              href="#features"
+              className="text-sm font-medium hover:text-primary transition-colors">
               Features
             </a>
-            <a href="#how-it-works" className="text-sm font-medium hover:text-primary transition-colors">
+            <a
+              href="#how-it-works"
+              className="text-sm font-medium hover:text-primary transition-colors">
               How It Works
             </a>
-            <a href="#waitlist" className="text-sm font-medium hover:text-primary transition-colors">
+            <a
+              href="#waitlist"
+              className="text-sm font-medium hover:text-primary transition-colors">
               Join Waitlist
             </a>
           </nav>
-          
+
           <div className="flex items-center gap-4">
             <Button variant="ghost" className="hidden md:inline-flex">
               Sign In

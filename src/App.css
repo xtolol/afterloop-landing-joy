@@ -1,7 +1,8 @@
 #root {
+  /* Remove default padding to avoid layout conflicts with fixed header */
+  padding: 0;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 

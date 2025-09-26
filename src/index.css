@@ -8,7 +8,7 @@
   :root {
     /* Afterloop Brand Colors from palette */
     --background: 323 100% 98%; /* #fff7fc */
-    --foreground: 222.2 84% 4.9%;
+    --foreground: /*#303030*/ 291, 35%, 15%;
 
     --card: 323 100% 98%;
     --card-foreground: 222.2 84% 4.9%;
@@ -39,9 +39,23 @@
     --ring: 242 100% 67%;
 
     /* Custom Afterloop gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(249 100% 76%), hsl(242 100% 67%));
-    --gradient-hero: linear-gradient(135deg, hsl(323 100% 98%), hsl(249 100% 76%), hsl(242 100% 67%), hsl(332 100% 73%));
-    --gradient-accent: linear-gradient(90deg, hsl(242 100% 67%), hsl(332 100% 73%));
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(249 100% 76%),
+      hsl(242 100% 67%)
+    );
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(323 100% 98%),
+      hsl(249 100% 76%),
+      hsl(242 100% 67%),
+      hsl(332 100% 73%)
+    );
+    --gradient-accent: linear-gradient(
+      90deg,
+      hsl(242 100% 67%),
+      hsl(332 100% 73%)
+    );
 
     --radius: 0.5rem;
 
@@ -92,9 +106,23 @@
     --ring: 242 100% 67%;
 
     /* Dark mode gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(249 100% 76%), hsl(242 100% 67%));
-    --gradient-hero: linear-gradient(135deg, hsl(222.2 84% 4.9%), hsl(249 100% 76%), hsl(242 100% 67%), hsl(332 100% 73%));
-    --gradient-accent: linear-gradient(90deg, hsl(242 100% 67%), hsl(332 100% 73%));
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(249 100% 76%),
+      hsl(242 100% 67%)
+    );
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(222.2 84% 4.9%),
+      hsl(249 100% 76%),
+      hsl(242 100% 67%),
+      hsl(332 100% 73%)
+    );
+    --gradient-accent: linear-gradient(
+      90deg,
+      hsl(242 100% 67%),
+      hsl(332 100% 73%)
+    );
   }
 }
 
@@ -112,15 +140,15 @@
   .gradient-primary {
     background: var(--gradient-primary);
   }
-  
+
   .gradient-hero {
     background: var(--gradient-hero);
   }
-  
+
   .gradient-accent {
     background: var(--gradient-accent);
   }
-  
+
   .text-gradient {
     background: var(--gradient-accent);
     -webkit-background-clip: text;
