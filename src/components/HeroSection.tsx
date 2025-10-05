@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-import heroImage from "@/assets/afterloop-hero.jpg";
+import heroImage from "@/assets/afterloop.jpeg";
 
 const HeroSection = () => {
   const scrollToWaitlist = () => {
