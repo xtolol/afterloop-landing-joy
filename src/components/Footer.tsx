@@ -30,11 +30,6 @@ const Footer = () => {
                   Join Waitlist
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-background transition-colors">
-                  Pricing
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -42,18 +37,8 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Connect with us</h3>
             <ul className="space-y-4 text-background/80">
               <li className="flex justify-start md:justify-center">
-                <a href="#" className="hover:text-background transition-colors">
+                <a href="https://www.linkedin.com/company/afterloop/" target="_blank" className="hover:text-background transition-colors">
                   <Linkedin className="h-4 w-4" />
-                </a>
-              </li>
-              <li className="flex justify-start md:justify-center">
-                <a href="#" className="hover:text-background transition-colors">
-                  <Twitter className="h-4 w-4" />
-                </a>
-              </li>
-              <li className="flex justify-start md:justify-center">
-                <a href="#" className="hover:text-background transition-colors">
-                  <Instagram className="h-4 w-4" />
                 </a>
               </li>
             </ul>

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-import heroImage from "@/assets/afterloop.jpeg";
+import heroImage from "@/assets/Chat.png";
 
 const HeroSection = () => {
   const scrollToWaitlist = () => {
@@ -29,8 +29,8 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-              Afterloop automatically detects tasks, decisions, and blockers in
-              your team conversations. Transform scattered work into organized
+              Afterloop automatically detects work items in
+              your team conversations. Transform confusion and scatter into organised
               action with AI that understands your workflow.
             </p>
 
@@ -56,7 +56,7 @@ const HeroSection = () => {
                 🎯 One-click task creation
               </div>
               <div className="flex items-center gap-2">
-                📊 Team alignment dashboard
+                📊 Team-aligned inbox
               </div>
             </div>
           </div>

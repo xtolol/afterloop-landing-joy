@@ -5,25 +5,25 @@ const features = [
   {
     icon: Bot,
     title: "Real-time AI Detection",
-    description: "Advanced AI instantly identifies tasks, decisions, and blockers as they appear in your conversations.",
-    highlight: "4.9/5 accuracy rate"
+    description: "Advanced AI instantly identifies tasks and blockers as they appear in your conversations.",
+    highlight: "4.8/5 accuracy rate"
   },
   {
     icon: Zap,
     title: "One-Click Task Creation",
     description: "Transform detected items into actionable tasks with auto-filled titles, assignees, and due dates.",
-    highlight: "50% faster workflow"
+    highlight: "70% faster workflow"
   },
   {
     icon: Target,
     title: "Smart Auto-Fill",
-    description: "AI automatically suggests assignees and deadlines based on conversation context and team patterns.",
+    description: "AI automatically suggests assignees and deadlines based on conversation context.",
     highlight: "90% auto-completion"
   },
   {
     icon: Users,
-    title: "Team Alignment Dashboard",
-    description: "Keep everyone synchronized with a central view of all tasks and blockers across teams.",
+    title: "Team Alignment Inbox",
+    description: "Keep everyone synchronised with a central view of all tasks and blockers across teams.",
     highlight: "4/5 alignment score"
   },
   {
@@ -50,7 +50,7 @@ const FeaturesSection = () => {
             <span className="text-gradient">Modern Teams</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Afterloop combines cutting-edge AI with intuitive design to eliminate missed tasks 
+            Afterloop combines AI with intuitive design to eliminate missed work items 
             and improve team coordination without disrupting your natural workflow.
           </p>
         </div>
