@@ -16,15 +16,15 @@ const steps = [
     step: "02",
     title: "AI Detection",
     description:
-      "Advanced AI analyzes context and identifies potential tasks and blockers with high confidence",
-    example: "AI detects: Task, Assignee: You, Deadline: Wednesday",
+      "Advanced AI analyses context and identifies potential tasks and blockers with high confidence",
+    example: "AI detects: title, asignee, due date",
   },
   {
     icon: Plus,
     step: "03",
     title: "One-Click Creation",
     description:
-      "A subtle notification appears with pre-filled details. One click transforms the message into an organized task",
+      "A subtle notification appears with pre-filled details, with one click transforming the message into an organised task",
     example: '✨ Add Task: "Review design mockups" → Click to add',
   },
   {
@@ -32,8 +32,8 @@ const steps = [
     step: "04",
     title: "Sync & Track",
     description:
-      "Tasks automatically sync to your dashboard where teams can track progress and maintain alignment",
-    example: "Dashboard updated → Team visibility → Progress tracking",
+      "Tasks automatically sync to your inbox where teams can track progress and maintain alignment",
+    example: "Inbox updated → Team visibility → Progress tracking",
   },
 ];
 
@@ -50,7 +50,7 @@ const HowItWorksSection = () => {
           </h2>
           <p className="text-lg text-background max-w-3xl mx-auto">
             See how Afterloop seamlessly transforms your team conversations into
-            organized, trackable action items without disrupting your workflow.
+            organised, trackable work items without disrupting your workflow.
           </p>
         </div>
 

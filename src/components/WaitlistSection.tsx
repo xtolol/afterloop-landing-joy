@@ -36,7 +36,7 @@ const WaitlistSection = () => {
     } else {
       toast({
         title: "Success",
-        description: "You have been added to the waitlist",
+        description: "You have been added to the waitlist!",
       });
       setEmail("");
     }
@@ -64,9 +64,9 @@ const WaitlistSection = () => {
           </h2>
 
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Join forward-thinking teams waiting to revolutionize
-            their communication workflow. Get early access and help shape the
-            future of AI-powered team coordination.
+            Join forward-thinking teams waiting to revolutionise
+            their communication workflow. Get early access and shape the
+            future of AI-powered team coordination today.
           </p>
 
           <Card className="p-8 max-w-lg mx-auto border-0 gradient-hero shadow-xl">
@@ -98,7 +98,7 @@ const WaitlistSection = () => {
             <div className="mt-6 flex items-center justify-center gap-6 text-sm text-background">
               <div className="flex items-center gap-2">
                 <Users className="h-4 w-4" />
-                <span>Limited spots left!</span>
+                <span>Limited spots left</span>
               </div>
               <div className="flex items-center gap-2">
                 ⚡ Early access perks
@@ -108,7 +108,7 @@ const WaitlistSection = () => {
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary mb-2">50%</div>
+              <div className="text-2xl font-bold text-primary mb-2">70%</div>
               <div className="text-sm text-muted-foreground">
                 Faster task creation
               </div>
